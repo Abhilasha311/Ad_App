@@ -14,7 +14,6 @@ from flask import Flask, request,jsonify,render_template
 import pickle
 import pandas as pd
 import numpy as np
-from collections.abc import Mapping, MutableMapping
 
 app = Flask(__name__)
 filename = 'Ad_classifier.pkl'
